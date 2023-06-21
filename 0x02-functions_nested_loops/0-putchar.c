@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * Description: Prints "putchar" using _putchar
+ * main - Entry point
  *
- * Return: 0
+ * Description: Prints "putchar" using _putchar function
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -16,6 +18,7 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
 
